@@ -1,0 +1,89 @@
+h1 {
+    color: #880000;
+}
+
+p {
+    color: #0000FF;
+}
+
+i {
+    color: #FF4499;
+}
+
+/* 0, 0, 0, 1 = 1 */
+span { 
+    color: #C3A315;
+}
+
+/* 0, 0, 1, 0 = 10 */ 
+.text {
+    color: #00FFFF;
+}
+
+/* 0, 0, 0, 1 + 0, 0, 1, 0 = 0, 0, 1, 1 */
+p .text {
+    color: #A7FF04;
+}
+
+/* 0,0,0,1 + 0,0,0,1 + 0,0,1,0 = 0,0,1,2 */
+p span.text {
+    color: #FF5500;
+}
+
+/* 0,0,0,1 -> 1,0,0,0 */
+/* .text { */
+    /* color: #BB00AA !important; */
+/* } */
+
+/* 0,1,0,0 */
+#excepturi {
+    color: #000000;
+}
+
+div {
+    background-color: #880000;
+    color: #ffffff;
+
+    /* margin: 10px; */
+    margin-bottom: 10px;
+    /* margin-right: 5px; */
+    /* margin-left: 5px; */
+    /* margin-top: 10px; */
+
+    /* margin: 10px 5px 10px 5px; */
+    /* margin: 10px 5px; */
+    /* margin: 10px 15px 25px; */
+
+    border: 5px solid #000000;
+    padding: 100px;
+    width: 30%;
+    
+    /* padding-top: 100px; */
+    /* padding-right: 100px; */
+    /* padding-bottom: 100px; */
+    /* padding-left: 100px; */
+
+    /* padding: 10px 5px 10px 5px; */
+    /* padding: 10px 5px; */
+    /* padding: 10px 15px 25px; */
+}
+
+* {
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    border: none;
+    width: 100%;
+    padding: 0;
+    
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
