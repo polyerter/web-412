@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-direction: row-reverse;
+
+    /* justify-content: space-around; */
+    justify-content: center;
+}
+
+.col-4 {
+    width: 33.33%;
+    height: 250px;
+    background-color: #888811;
+    margin-right: 15px;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.col-6 {
+    width: 250px;
+    height: 250px;
+    background-color: #09E026;
+}
