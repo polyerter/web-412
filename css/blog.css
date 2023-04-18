@@ -1,5 +1,14 @@
+* {
+    margin: 0;
+}
+
 .header {
     display: flex;
+}
+
+.bg-gray {
+    background-color: #333;
+    color: #fff;
 }
 
 .header-title {
@@ -11,5 +20,52 @@
 }
 
 .header-search {
+    width: 20%;
+}
+
+.header-menu .menu {
+    list-style: none;
+}
+
+.header-menu .menu .menu-item {
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header-menu .menu .menu-item.active {
+    background-color: #04AA6D !important;
+}
+
+.header-menu .menu .menu-item:hover {
+    background-color: #000;
+}
+
+.header-search .form-search {
+    height: 100%;
+}
+
+.header-search .form-input {
+    height: 75%;
+    margin: 5px;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.main {
+    display: flex;
+}
+
+.main .sidebar-left {
+    width: 20%;
+}
+
+.main .content {
+    width: 60%;
+}
+
+.main .sidebar-right {
     width: 20%;
 }
