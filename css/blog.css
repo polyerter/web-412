@@ -33,11 +33,11 @@
     cursor: pointer;
 }
 
-.header-menu .menu .menu-item.active {
+.menu-item.active {
     background-color: #04AA6D !important;
 }
 
-.header-menu .menu .menu-item:hover {
+.menu-item:hover {
     background-color: #000;
 }
 
@@ -68,4 +68,55 @@
 
 .main .sidebar-right {
     width: 20%;
+}
+
+.main .sidebar-left .left-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.main .sidebar-left .left-menu .menu-item {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding: 25px;
+}
+
+.row {
+    display: flex;
+}
+
+.post-header .row {
+    justify-content: space-between;
+}
+
+.post-header .post-meta {
+    list-style: none;
+}
+
+.post-header .post-meta li {
+    float: left;
+    margin-right: 5px;
+}
+
+.post-header .post-meta-item {
+    font-weight: bold;
+}
+
+.post-content {
+    margin-top: 20px;
+}
+
+.post-image-block {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
